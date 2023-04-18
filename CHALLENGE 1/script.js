@@ -1,21 +1,19 @@
-/*const firstName = 'John';
+const firstName = 'John';
 const age = 35;
-const  johnHobby = 'Coding';
+const johnHobby = 'Coding';
 
-
-const logTwice = () => {
-  console.log(function (logTwice));
+const logTwice = (parameter) => {
+  console.log(parameter)
+  console.log(parameter)
 }
 
-function hobby() {
-  logTwice(`Hello, (${firstName}).(${age}). I love (${johnHobby})!`);
+function hobby () {
+  logTwice(`Hello, ${firstName} (${age}). I love ${johnHobby}!`)
 }
 
 hobby();
-logTwice()
-*/
 
-
+/*
 const firstName = 'John';
 const age = 35;
 const hobby = 'Coding';
@@ -26,3 +24,4 @@ const logTwice = () => {
 }
 
 logTwice();
+*/

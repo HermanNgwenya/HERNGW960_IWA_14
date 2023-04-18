@@ -1,17 +1,17 @@
 
 // script.js
 
-const add = (a, b) => { a + b }
+const add = (a, b) => {return  a + b }
 
-const multiply = (a, b) => { a - b }
+const multiply = (a, b) => { return a * b}
+
 
 function internal() {
-	const added = this.add(this.example1.a, this.b);
-	const multiplied = this.multiply(this.a, this.b);
-	return this;
+	const result1 = this.add(this.internal.a, this.internal.b)
+	const result2 = this.multiply(result1, this.internal.c)
+	
+	console.log(result2)
 }
-
-console.log();
 
 // Not allowed to change below this
 
